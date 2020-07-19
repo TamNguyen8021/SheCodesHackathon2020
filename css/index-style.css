@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Roicamonta";
+  src: url("../fonts/Roicamonta/Aga.Silva_Roicamonta.Basic.Italic.otf");
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url("../fonts/Museo_Sans/MuseoSansCyrl-500.otf");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Museo Sans", sans-serif;
+}
+
+#flag {
+  width: 3%;
+  height: auto;
+  margin-left: 1%;
+}
+
+.active-cyan-4 input[type="search"]:focus {
+  border: 1.5px solid #4dd0e1;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.active-cyan-4 .fas {
+  color: #4dd0e1;
+}
+
+.container {
+  margin-left: 5%;
+  margin-right: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.list-group-item {
+  border: none;
+  padding: 2%;
+}
+
+.row {
+  margin-top: 7%;
+}
+
+img {
+  width: 350px;
+  height: 300px;
+  /* margin: 0.5%; */
+}
+
+#logo {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  margin-top: 10%;
+  left: 140%;
+}
+
+footer {
+  margin-top: 10%;
+  background-color: #f3f3f3;
+}
+
+.row a {
+  position: absolute;
+  left: 40%;
+  right: 40%;
+}
+
+.intro,
+.news {
+  position: absolute;
+}
+
+.intro {
+  bottom: -110%;
+}
+
+.contact {
+  left: 20%;
+}
+
+.clinic {
+  left: 10%;
+}
+
+.news {
+  left: 20%;
+}
+
+.news a {
+  bottom: 10%;
+}
+
+.reduce-left {
+  left: -50%;
+}
+
+.ad {
+  width: 100%;
+  height: 60%;
+}

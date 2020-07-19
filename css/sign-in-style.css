@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Nolan Next";
+  src: url("../fonts/Nolan_Next/Kastelov\ -\ NolanNext-Light.otf");
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url("../fonts/Museo_Sans/MuseoSansCyrl-500.otf");
+}
+
+html,body{
+    height: 100%;
+    font-family: "Museo Sans", sans-serif;
+}
+
+.container{
+    height: 100%;
+    align-content: center;
+}
+
+img {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 65%;
+  width: 30%;
+  border-top: 1px solid #b4b4b4;
+  border-left: 1px solid #b4b4b4;
+  border-bottom: 1px solid #b4b4b4;
+  box-shadow: 5px 5px #c7c7c7;
+}
+
+.card{
+    height: 65%;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    border-left: none;
+    border-radius: 0;
+    border-color: #b4b4b4;
+    box-shadow: 5px 5px #c7c7c7;
+}
+
+.card-header, .card-footer {
+  background-color: white;
+}
+
+.card-header {
+  border-bottom: none;
+}
+
+.card-footer {
+  border-top: none;
+  margin-top: 0;
+}
+
+.card-header h1 {
+  font-family: "Nolan Next";
+  font-weight: bold;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+input[type=text],
+input[type=password] {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #b4b4b4; 
+  border-radius: 0;
+}
+
+.button {
+  margin-top: 10%;
+}

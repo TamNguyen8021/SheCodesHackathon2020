@@ -1,0 +1,128 @@
+<!DOCTYPE >
+<html lang="vi">
+  <head>
+    <title>Đăng ký</title>
+    <meta charset="utf-8" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/sign-up-style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="d-flex justify-content-center h-100">
+        <img src="../images/login-decoration.jpg" alt="" />
+        <div class="card">
+          <div class="card-header text-center">
+            <h1>Đăng ký</h1>
+          </div>
+
+          <div class="card-body">
+            <form action="" method="POST">
+              <div class="input-group form-group">
+                <label for="username" class="col-sm-5 col-form-label"
+                  >Tên đăng nhập:</label
+                >
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="username" />
+                </div>
+              </div>
+
+              <div class="input-group form-group">
+                <label for="password" class="col-sm-5 col-form-label"
+                  >Mật khẩu:</label
+                >
+                <div class="col-sm-7">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="input-group form-group">
+                <label for="city" class="col-sm-5 col-form-label"
+                  >Thành phố:</label
+                >
+                <div class="col-sm-7">
+                  <select id="city" class="form-control">
+                    <option selected>Chọn thành phố</option>
+                    <option>...</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="input-group form-group">
+                <label for="role" class="col-sm-5 col-form-label"
+                  >Vai trò:</label
+                >
+                <div class="col-sm-7">
+                  <select id="role" class="form-control">
+                    <option selected>Chọn vai trò</option>
+                    <option>...</option>
+                  </select>
+                </div>
+              </div>
+
+              <label for="role" class="col-sm-5 col-form-label"
+                >Giới tính:</label
+              >
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gender"
+                  id="maleGender"
+                  value="male"
+                />
+                <label class="form-check-label" for="maleGender">Nam</label>
+              </div>
+
+              <div class="form-check form-check-inline female-radio">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gender"
+                  id="femaleGender"
+                  value="female"
+                />
+                <label class="form-check-label" for="femaleGender">Nữ</label>
+              </div>
+
+              <div class="form-group">
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="agree"
+                    required
+                  />
+                  <label class="form-check-label" for="agree"
+                    >Tôi đã đồng ý với các điều khoản <a href="#">Chính sách và Dịch
+                    vụ</a></label
+                  >
+                </div>
+              </div>
+
+              <div class="form-group text-center">
+                <input
+                  type="submit"
+                  class="btn btn-primary mx-4"
+                  value="Đăng nhập"
+                />
+                <a class="btn btn-primary mx-4" href="#" role="button"
+                  >Đăng ký</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

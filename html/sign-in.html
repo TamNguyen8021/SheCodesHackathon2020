@@ -1,0 +1,65 @@
+<!DOCTYPE >
+<html lang="vi">
+  <head>
+    <title>Đăng nhập</title>
+    <meta charset="utf-8" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/sign-in-style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="d-flex justify-content-center h-100">
+        <img src="../images/login-decoration.jpg" alt="">
+        <div class="card">
+          
+          <div class="card-header text-center">
+            <h1>Đăng nhập</h1>
+          </div>
+
+          <div class="card-body">
+            <form action="" method="POST">
+              <div class="input-group form-group">
+                <label for="username" class="col-sm-5 col-form-label"
+                  >Tên đăng nhập:</label
+                >
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="username" />
+                </div>
+              </div>
+
+              <div class="input-group form-group">
+                <label for="password" class="col-sm-5 col-form-label"
+                  >Mật khẩu:</label
+                >
+                <div class="col-sm-7">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-group text-center button">
+                <input type="submit" class="btn btn-primary mx-5" value="Đăng nhập"/>
+                <a class="btn btn-primary mx-5" href="sign-up.html" role="button">Đăng ký</a>
+              </div>
+            </form>
+          </div>
+
+          <div class="card-footer">
+            <div class="d-flex justify-content-center links">
+              Quên &nbsp;<a href="#">mật khẩu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
